@@ -2,6 +2,22 @@
 
 	<PropertyGroup>
 		<TargetFramework>netstandard2.0</TargetFramework>
+		<Version>0.1.0</Version>
+		<Description>1、WhereIf()
+  var keyword="1";
+  var list=new List&lt;string&gt;{"1","2","1"};
+  list.WhereIf(x=&gt;x==keyword, keyword);
+  // or
+  list.WhereIf(x=&gt;x==keyword, keyword.IsTrue());
+2、WhereTrue() or WhereFalse()
+  var keyword="1";
+  var list=new List&lt;string&gt;{"1","2","1", "", " "};
+  list.WhereTrue(); // {"1","2","1"}
+  list.WhereFalse(); // {"", " "}</Description>
+		<Copyright>Daxia</Copyright>
+		<Authors>Daxia</Authors>
+		<PackageProjectUrl>https://github.com/shenjielx/Likecoder</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/shenjielx/Likecoder</RepositoryUrl>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

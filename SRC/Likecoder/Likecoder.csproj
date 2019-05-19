@@ -2,6 +2,21 @@
 
 	<PropertyGroup>
 		<TargetFramework>netstandard2.0</TargetFramework>
+		<Version>0.1.0</Version>
+		<Description>1、IsTrue() or IsFalse()
+string, short, int, long, double, decimal, bool, List, IList, IEnumerable, IQueryable
+
+  "123".IsTrue() // true
+  " ".IsFalse() // true
+2、Left() or Right()
+  "1234567".Left(3) // "123"
+  "xyz91is".Right(4) // "91is"</Description>
+		<Copyright>Daxia</Copyright>
+		<Authors>Daxia</Authors>
+		<PackageProjectUrl>https://github.com/shenjielx/Likecoder</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/shenjielx/Likecoder</RepositoryUrl>
+		<PackageLicenseExpression></PackageLicenseExpression>
+		<PackageLicenseFile></PackageLicenseFile>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
