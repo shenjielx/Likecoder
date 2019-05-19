@@ -2,6 +2,10 @@
 
 Likecoder
 
+https://www.nuget.org/packages/Likecoder/
+
+https://www.nuget.org/packages/Likecoder.Linq/
+
 ## 2019-05-05 version-0.1
 
 ### 1、IsTrue() or IsFalse()
