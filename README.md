@@ -6,7 +6,25 @@ https://www.nuget.org/packages/Likecoder/
 
 https://www.nuget.org/packages/Likecoder.Linq/
 
-## 2019-05-05 version-0.1
+## 2019-07-08 version-0.1.1
+
+### 1、IsTrue() or IsFalse()
+
+***DateTime, DateTimeOffset***
+
+```
+  DateTime.UtcNow.IsTrue() // true
+  DateTime.MinValue.IsFalse() // true
+```
+
+### 2、ToUnixTimestamp()
+
+```
+  DateTime.UtcNow.ToUnixTimestamp()
+```
+
+
+## 2019-05-05 version-0.1.0
 
 ### 1、IsTrue() or IsFalse()
 
