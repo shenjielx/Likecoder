@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Likecoder", "Likecoder\Likecoder.csproj", "{BCA1BE22-7A6B-4541-B6A7-82DE31553036}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Likecoder", "SRC\Likecoder\Likecoder.csproj", "{BCA1BE22-7A6B-4541-B6A7-82DE31553036}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Likecoder.Linq", "Likecoder.Linq\Likecoder.Linq.csproj", "{11F09B7F-81E3-43C0-96A0-5E4B82F4401D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Likecoder.Linq", "SRC\Likecoder.Linq\Likecoder.Linq.csproj", "{11F09B7F-81E3-43C0-96A0-5E4B82F4401D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TDD", "TDD", "{99FBC4B2-00FF-4601-889B-6BC88225390D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Likecoder.Tests", "..\TDD\Likecoder.Tests\Likecoder.Tests.csproj", "{B5A8A40F-1D5D-4EF5-932B-2AC92A39D9F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Likecoder.Tests", "TDD\Likecoder.Tests\Likecoder.Tests.csproj", "{B5A8A40F-1D5D-4EF5-932B-2AC92A39D9F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Likecoder.Linq.Tests", "..\TDD\Likecoder.Linq.Tests\Likecoder.Linq.Tests.csproj", "{90B39314-837D-46CC-9021-216128468097}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Likecoder.Linq.Tests", "TDD\Likecoder.Linq.Tests\Likecoder.Linq.Tests.csproj", "{90B39314-837D-46CC-9021-216128468097}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SRC", "SRC", "{B1C32390-C17C-47E3-8590-1B397351701B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Likecoder.Mvc.TagHelpers.Bootstrap", "SRC\Likecoder.Mvc.TagHelpers.Bootstrap\Likecoder.Mvc.TagHelpers.Bootstrap.csproj", "{91EDD9A9-2862-48BC-9D22-EB41444C9261}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,13 +39,20 @@ Global
 		{90B39314-837D-46CC-9021-216128468097}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90B39314-837D-46CC-9021-216128468097}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90B39314-837D-46CC-9021-216128468097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91EDD9A9-2862-48BC-9D22-EB41444C9261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91EDD9A9-2862-48BC-9D22-EB41444C9261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91EDD9A9-2862-48BC-9D22-EB41444C9261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91EDD9A9-2862-48BC-9D22-EB41444C9261}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{BCA1BE22-7A6B-4541-B6A7-82DE31553036} = {B1C32390-C17C-47E3-8590-1B397351701B}
+		{11F09B7F-81E3-43C0-96A0-5E4B82F4401D} = {B1C32390-C17C-47E3-8590-1B397351701B}
 		{B5A8A40F-1D5D-4EF5-932B-2AC92A39D9F0} = {99FBC4B2-00FF-4601-889B-6BC88225390D}
 		{90B39314-837D-46CC-9021-216128468097} = {99FBC4B2-00FF-4601-889B-6BC88225390D}
+		{91EDD9A9-2862-48BC-9D22-EB41444C9261} = {B1C32390-C17C-47E3-8590-1B397351701B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9E820B09-9AD6-411D-9A12-D449E3603CF7}
