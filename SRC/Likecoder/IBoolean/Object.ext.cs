@@ -15,6 +15,7 @@ namespace Likecoder
 			if (me is double) return ((double)me).IsFalse();
 			if (me is decimal) return ((decimal)me).IsFalse();
 			if (me is bool) return ((bool)me).IsFalse();
+			if (me is Enum) return ((int)me).IsFalse();
 
 			return me is null;
 		}
